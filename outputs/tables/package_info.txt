@@ -1,0 +1,27 @@
+PACKAGE INFORMATION
+==================
+
+ Package      Title                                                               
+ "tidyverse"  "Easily Install and Load the 'Tidyverse'"                           
+ "knitr"      "A General-Purpose Package for Dynamic Report Generation in R"      
+ "kableExtra" "Construct Complex Table with 'kable' and Pipe Syntax"              
+ "lavaan"     "Latent Variable Analysis"                                          
+ "semPlot"    "Path Diagrams and Visual Analysis of Various SEM Packages'\nOutput"
+ "OpenMx"     "Extended Structural Equation Modelling"                            
+ "GGally"     "Extension to 'ggplot2'"                                            
+ Maintainer                                      Version  
+ "Hadley Wickham <hadley@rstudio.com>"           "2.0.0"  
+ "Yihui Xie <xie@yihui.name>"                    "1.51"   
+ "Hao Zhu <haozhu233@gmail.com>"                 "1.4.0"  
+ "Yves Rosseel <Yves.Rosseel@UGent.be>"          "0.6-21" 
+ "Sacha Epskamp <mail@sachaepskamp.com>"         "1.1.8"  
+ "Robert M. Kirkpatrick <rkirkpatrick2@vcu.edu>" "2.22.10"
+ "Barret Schloerke <schloerke@gmail.com>"        "2.4.0"  
+ URL                                      
+ "https://tidyverse.tidyverse.org,"       
+ NA                                       
+ "http://haozhu233.github.io/kableExtra/,"
+ NA                                       
+ NA                                       
+ "https://openmx.ssri.psu.edu/,"          
+ "https://ggobi.github.io/ggally/,"       

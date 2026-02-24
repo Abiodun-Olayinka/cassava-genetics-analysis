@@ -1,0 +1,60 @@
+REGRESSION ANALYSIS RESULTS
+===========================
+
+Model 1: FYLD ~ RTWT + NOHAV + RTNO + HI + LODG + PLTHT6 + PLTHT9 + STARCH + STMDI9 + ANGBR9
+
+
+Call:
+lm(formula = FYLD ~ RTWT + NOHAV + RTNO + HI + LODG + PLTHT6 + 
+    PLTHT9 + STARCH + STMDI9 + ANGBR9, data = cassava)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0050336 -0.0021474 -0.0000227  0.0021164  0.0042364 
+
+Coefficients:
+              Estimate Std. Error   t value Pr(>|t|)    
+(Intercept) -1.170e-02  8.556e-03    -1.367   0.1784    
+RTWT         1.333e+00  1.016e-04 13126.269   <2e-16 ***
+NOHAV        4.602e-04  3.700e-04     1.244   0.2200    
+RTNO        -4.753e-05  3.805e-05    -1.249   0.2181    
+HI           5.543e-03  8.062e-03     0.687   0.4953    
+LODG         1.487e-05  2.983e-04     0.050   0.9605    
+PLTHT6       3.001e-05  7.060e-05     0.425   0.6728    
+PLTHT9      -6.230e-05  7.591e-05    -0.821   0.4161    
+STARCH       1.270e-04  1.454e-04     0.873   0.3871    
+STMDI9       4.237e-04  2.392e-04     1.772   0.0832 .  
+ANGBR9       3.771e-05  7.222e-05     0.522   0.6041    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002703 on 45 degrees of freedom
+Multiple R-squared:      1,	Adjusted R-squared:      1 
+F-statistic: 6.222e+07 on 10 and 45 DF,  p-value: < 2.2e-16
+
+
+
+Model 2: RTWT ~ HI + PLTHT6 + PLTHT9 + LODG
+
+
+Call:
+lm(formula = RTWT ~ HI + PLTHT6 + PLTHT9 + LODG, data = cassava)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.7875 -3.6429 -0.2692  3.2091 10.6500 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -10.17164    6.58594  -1.544    0.129    
+HI           64.94917    8.70315   7.463 1.01e-09 ***
+PLTHT6        0.09475    0.12313   0.769    0.445    
+PLTHT9       -0.03056    0.12720  -0.240    0.811    
+LODG         -0.47431    0.51342  -0.924    0.360    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.852 on 51 degrees of freedom
+Multiple R-squared:  0.5303,	Adjusted R-squared:  0.4934 
+F-statistic: 14.39 on 4 and 51 DF,  p-value: 6.22e-08
+

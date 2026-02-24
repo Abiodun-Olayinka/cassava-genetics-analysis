@@ -1,0 +1,4 @@
+"Model","Converged","Chisq","DF","CFI","RMSEA"
+"Model1: FYLD ~ RTWT",FALSE,NA,NA,NA,NA
+"Model2: FYLD ~ RTWT + RTNO",FALSE,NA,NA,NA,NA
+"Model3: FYLD ~ RTWT + RTNO + HI",FALSE,NA,NA,NA,NA

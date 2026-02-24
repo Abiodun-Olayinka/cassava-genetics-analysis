@@ -1,0 +1,45 @@
+MULTIPLE LINEAR REGRESSION RESULTS
+==================================
+
+Dependent Variable: FYLD (Fresh Yield)
+
+
+Call:
+lm(formula = FYLD ~ RTWT + NOHAV + RTNO + HI + LODG + PLTHT6 + 
+    PLTHT9 + STARCH, data = cassava)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0042077 -0.0029515  0.0001084  0.0027640  0.0035833 
+
+Coefficients:
+              Estimate Std. Error   t value Pr(>|t|)    
+(Intercept) -1.001e-03  4.010e-03    -0.250    0.804    
+RTWT         1.333e+00  1.030e-04 12943.204   <2e-16 ***
+NOHAV        1.541e-04  3.332e-04     0.462    0.646    
+RTNO        -2.949e-05  3.745e-05    -0.787    0.435    
+HI           8.729e-04  7.728e-03     0.113    0.911    
+LODG         5.954e-05  3.006e-04     0.198    0.844    
+PLTHT6       1.583e-05  7.138e-05     0.222    0.825    
+PLTHT9      -1.345e-05  7.244e-05    -0.186    0.853    
+STARCH       9.286e-05  1.437e-04     0.646    0.521    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002748 on 47 degrees of freedom
+Multiple R-squared:      1,	Adjusted R-squared:      1 
+F-statistic: 7.522e+07 on 8 and 47 DF,  p-value: < 2.2e-16
+
+
+
+Coefficients with Confidence Intervals:
+                    2.5 %       97.5 %
+(Intercept) -0.0090689420 7.066521e-03
+RTWT         1.3331272712 1.333542e+00
+NOHAV       -0.0005162532 8.244095e-04
+RTNO        -0.0001048225 4.584587e-05
+HI          -0.0146735743 1.641936e-02
+LODG        -0.0005452476 6.643298e-04
+PLTHT6      -0.0001277700 1.594368e-04
+PLTHT9      -0.0001591777 1.322727e-04
+STARCH      -0.0001962116 3.819258e-04

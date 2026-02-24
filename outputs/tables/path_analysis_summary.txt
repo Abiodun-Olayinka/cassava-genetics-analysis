@@ -1,0 +1,56 @@
+PATH COEFFICIENT ANALYSIS RESULTS
+=================================
+
+Date: Tue Feb 24 12:15:55 2026 
+
+MODEL SPECIFICATION:
+FYLD ~ RTWT + NOHAV + RTNO + HI + LODG + PLTHT6 + PLTHT9 + STARCH + STMDI9 + ANGBR9
+RTWT ~ HI + PLTHT6 + PLTHT9 + LODG
+
+MODEL FIT SUMMARY:
+lavaan 0.6-21 did NOT end normally after 212 iterations
+** WARNING ** Estimates below are most likely unreliable
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        16
+
+                                                  Used       Total
+  Number of observations                           682        1000
+
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  FYLD ~                                                                
+    RTWT              1.333       NA                      1.333    1.000
+    NOHAV             0.000       NA                      0.000    0.000
+    RTNO             -0.000       NA                     -0.000   -0.000
+    HI               -0.001       NA                     -0.001   -0.000
+    LODG             -0.000       NA                     -0.000   -0.000
+    PLTHT6           -0.000       NA                     -0.000   -0.000
+    PLTHT9            0.000       NA                      0.000    0.000
+    STARCH           -0.000       NA                     -0.000   -0.000
+    STMDI9           -0.000       NA                     -0.000   -0.000
+    ANGBR9           -0.000       NA                     -0.000   -0.000
+  RTWT ~                                                                
+    HI               55.160       NA                     55.160    0.692
+    PLTHT6           -0.022       NA                     -0.022   -0.081
+    PLTHT9            0.117       NA                      0.117    0.442
+    LODG             -0.595       NA                     -0.595   -0.136
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .FYLD              0.000       NA                      0.000    0.000
+   .RTWT             23.893       NA                     23.893    0.422
+
+R-Square:
+                   Estimate
+    FYLD              1.000
+    RTWT              0.578
+
