@@ -1,0 +1,26 @@
+CORRELATION ANALYSIS SUMMARY
+============================
+
+Date: Tue Feb 24 12:26:33 2026 
+
+Matrix dimensions: 20 x 20 
+Traits analyzed: LODG, BRNLEV9, PLTHT9, NOHAV, RTNO, STARCH, BRNHB9, ANGBR9, STMDI9, PPSTD9, SHTWT, RTWT, BRNHT9, PLTHT6, FYLD, DYLD, TYLD, HI, DM, BRNHT6 
+
+CORRELATION STATISTICS:
+  Range: Inf to -Inf 
+  Mean: NaN 
+  Median: NA 
+
+TOP 10 STRONGEST CORRELATIONS:
+    Trait1  Trait2 Correlation
+1     LODG BRNLEV9          NA
+2     LODG  PLTHT9          NA
+3  BRNLEV9  PLTHT9          NA
+4     LODG   NOHAV          NA
+5  BRNLEV9   NOHAV          NA
+6   PLTHT9   NOHAV          NA
+7     LODG    RTNO          NA
+8  BRNLEV9    RTNO          NA
+9   PLTHT9    RTNO          NA
+10   NOHAV    RTNO          NA
+

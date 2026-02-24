@@ -53,12 +53,6 @@ semPaths(fit,"std",layout = 'tree', edge.label.cex=.9, curvePivot = TRUE)
 # Data file: data/IKENNE_META.xlsx
 ############################################################
 
-
-# Install the necessary packages if not already installed
-#install.packages("readxl")
-#install.packages("corrplot")
-
-# Load the libraries
 library(readxl)
 library(corrplot)
 
@@ -97,18 +91,8 @@ corrplot(cor_matrix,
 
 ############################################################
 # NDVI Linear Prediction Model
-# Data file: data/ONNEMODIFIED.csv
+# Data file: data/ONNENDVI.csv
 ############################################################
-
-rm(list = ls())
-# Display current objects in the environment
-print(ls())
-
-# Remove all objects from the environment
-rm(list = ls())
-
-# Verify that the environment is now empty
-print(ls())
 
 library (rms) # for calibration and validation functions
 library (calibrate) # for calibration plots
@@ -402,5 +386,3 @@ coef_table <- data.frame(
 
 # Print the coefficient table
 print(coef_table)
-
-

@@ -1,0 +1,38 @@
+NDVI LINEAR REGRESSION MODEL RESULTS
+====================================
+
+Date: Tue Feb 24 12:33:39 2026 
+
+MODEL: DM ~ NDVI3
+
+TRAINING DATA:
+  Observations: 35 
+
+MODEL SUMMARY:
+
+Call:
+lm(formula = DM ~ NDVI3, data = train_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.5804 -1.1154 -0.1977  1.5004  5.0611 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)    22.51      11.10   2.028   0.0507 .
+NDVI3          13.03      13.91   0.937   0.3556  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.634 on 33 degrees of freedom
+Multiple R-squared:  0.02591,	Adjusted R-squared:  -0.003611 
+F-statistic: 0.8777 on 1 and 33 DF,  p-value: 0.3556
+
+
+
+VALIDATION METRICS (TEST DATA):
+  R-squared: 0.3260485 
+  RMSE: 2.888608 
+  MAE: 2.312921 
+
+TEST DATA SIZE: 7 observations
