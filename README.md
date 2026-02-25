@@ -1,4 +1,5 @@
 # Analysis Outputs
+[![DOI](https://zenodo.org/badge/DOI/[C.svg)](https://doi.org/[C)
 
 This folder contains all results from the path analysis.
 
