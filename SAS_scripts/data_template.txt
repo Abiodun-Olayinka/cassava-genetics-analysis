@@ -1,0 +1,2 @@
+# Create run_all_analyses.sh
+nano run_all_analyses.sh
